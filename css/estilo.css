@@ -193,6 +193,12 @@ nav a{
     padding: 1rem;
     font-size: 0.75rem;
     font-weight: 200;
+    
+}
+
+.link-f{
+    color: white;
+    text-decoration: none;
 }
 
 /*Carrito*/
