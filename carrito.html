@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modass For Men</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="css/estilo.css"> 
+</head>
+<body>
+    <div class="todo">
+        <header class="h_mobile">
+            <h1 class="logo" >Modass For Men</h1>
+            <button class="open-menu" id="open-menu" >
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <main>
+            <h2>Carrito <i class="bi bi-cart"></i></h2>
+            <p id="carrito-vacio" class="car_vacio">Tu carrito esta vacío 🙁</p>
+            <div id="carrito-productos" class="car_prods disabled">
+                <!-- Javascript -->
+            </div>
+            <div id="carrito-acciones" class="car_acciones disabled">
+                <div class="car_acc_izq">
+                    <button id="car_acc_vaciar" class="car_acc_vaciar">Vaciar Carrito</button>
+                </div>
+                <div class="car_acc_der">
+                    <div class="car_acc_total">
+                        <p>Total: </p>
+                        <p id="total"></p>
+                    </div>
+                    <button id="car_acc_comprar" class="car_acc_comprar">Comprar ahora</button>
+                </div>
+            </div>
+            <p id="carrito-comprado" class="car_comprado disabled">Gracias por tu compra! 😀</p>    
+        </main>
+        <aside>
+            <button class="close-menu" id="close-menu" >
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo">Modass For Men</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a  href="./index.html"><i class="bi bi-arrow-90deg-left"></i>seguir comprando</a>
+                    </li>
+                </ul>
+                <a href="carrito.html" class="carrito_active"><i class="bi bi-cart"></i>carrito</a>
+            </nav>
+            <footer>
+                <p class="f_text">Derechos de autor © 2023 - Joel Angel Dev</p>
+            </footer>
+        </aside>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/carrito.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script> 
+</body>
+</html>
